@@ -2,7 +2,10 @@
   "name": "decode-single-select",
   "version": "1.0.0",
   "description": "React single survey selection",
-  "author": "ajit-kumar-Converz",
+  "author": {
+    "name": "ajit-kumar-Converz",
+    "email": "ajit.kumar@entropiktech.com"
+  },
   "license": "MIT",
   "repository": "https://github.com/ajit-kumar-Converz/packages.git",
   "main": "dist/index.js",
