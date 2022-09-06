@@ -62,5 +62,11 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "react-hook-form": "^7.12.2"
+  }
 }
