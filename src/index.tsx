@@ -8,7 +8,7 @@ interface Props {
   getJsonData?: any
 }
 
-export const ExampleComponent = ({ json, getJsonData }: Props) => {
+export const SurveyComponent = ({ json, getJsonData }: Props) => {
   return (
     <ChakraProvider>
       <div className={styles.test}>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { ExampleComponent } from 'decode-single-select'
+import { SurveyComponent } from 'decode-single-select'
 import 'decode-single-select/dist/index.css'
 import { Alert, Box, Divider } from '@chakra-ui/react'
 
@@ -35,7 +35,7 @@ const App = () => {
       </Box>
       <Box p='10px'>
         <Alert>Package</Alert>
-        <ExampleComponent json={json} getJsonData={getJsonData} />
+        <SurveyComponent json={json} getJsonData={getJsonData} />
       </Box>
     </div>
   )
