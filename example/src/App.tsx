@@ -27,8 +27,14 @@ const App = () => {
 
   return (
     <div>
+      <Box p='10px'>
+        <Alert>MFE App</Alert>
+      </Box>
       {JSON.stringify(json)}
       <Divider />
+      <Box p='10px'>
+        <Alert>Response from package</Alert>
+      </Box>
       {JSON.stringify(userRes)}
       <Box>
         <Divider h='10px' orientation='horizontal' />
