@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styles from './styles.module.css'
 import { ChakraProvider } from '@chakra-ui/react'
-import { SingleChoice } from './components/SingleChoice/SIngleChoice'
+import { SingleChoice } from './components/SingleChoice/SingleChoice'
 
 interface Props {
   json?: any
